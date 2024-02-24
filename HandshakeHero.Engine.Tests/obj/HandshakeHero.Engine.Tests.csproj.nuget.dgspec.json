@@ -1,0 +1,197 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/tv2/Dev/HandshakeHero/tests/HandshakeHero.Engine.Tests/HandshakeHero.Engine.Tests.csproj": {}
+  },
+  "projects": {
+    "/home/tv2/Dev/HandshakeHero/src/HandshakeHero.Contract/HandshakeHero.Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/tv2/Dev/HandshakeHero/src/HandshakeHero.Contract/HandshakeHero.Contract.csproj",
+        "projectName": "HandshakeHero.Contract",
+        "projectPath": "/home/tv2/Dev/HandshakeHero/src/HandshakeHero.Contract/HandshakeHero.Contract.csproj",
+        "packagesPath": "/home/tv2/.nuget/packages/",
+        "outputPath": "/home/tv2/Dev/HandshakeHero/src/HandshakeHero.Contract/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/tv2/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/tv2/Dev/HandshakeHero/src/HandshakeHero.Engine/HandshakeHero.Engine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/tv2/Dev/HandshakeHero/src/HandshakeHero.Engine/HandshakeHero.Engine.csproj",
+        "projectName": "HandshakeHero.Engine",
+        "projectPath": "/home/tv2/Dev/HandshakeHero/src/HandshakeHero.Engine/HandshakeHero.Engine.csproj",
+        "packagesPath": "/home/tv2/.nuget/packages/",
+        "outputPath": "/home/tv2/Dev/HandshakeHero/src/HandshakeHero.Engine/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/tv2/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/tv2/Dev/HandshakeHero/src/HandshakeHero.Contract/HandshakeHero.Contract.csproj": {
+                "projectPath": "/home/tv2/Dev/HandshakeHero/src/HandshakeHero.Contract/HandshakeHero.Contract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/tv2/Dev/HandshakeHero/tests/HandshakeHero.Engine.Tests/HandshakeHero.Engine.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/tv2/Dev/HandshakeHero/tests/HandshakeHero.Engine.Tests/HandshakeHero.Engine.Tests.csproj",
+        "projectName": "HandshakeHero.Engine.Tests",
+        "projectPath": "/home/tv2/Dev/HandshakeHero/tests/HandshakeHero.Engine.Tests/HandshakeHero.Engine.Tests.csproj",
+        "packagesPath": "/home/tv2/.nuget/packages/",
+        "outputPath": "/home/tv2/Dev/HandshakeHero/tests/HandshakeHero.Engine.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/tv2/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/tv2/Dev/HandshakeHero/src/HandshakeHero.Engine/HandshakeHero.Engine.csproj": {
+                "projectPath": "/home/tv2/Dev/HandshakeHero/src/HandshakeHero.Engine/HandshakeHero.Engine.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.6.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
